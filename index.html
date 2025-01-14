@@ -22,11 +22,36 @@ body
 .company-logo {
       margin: 10px; /* Adjust the value as needed */
     }
+
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+    }
+    .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
 </style>
  
   <title>Shib Dasgupta </title>
   </head>
 <body>
+
+<div class="navbar">
+  <a href="#education">Education</a>
+  <a href="#experience">Experience</a>
+  <a href="#publications">Publications</a>
+  <a href="#skills">Skills</a>
+  <a href="path/to/your/cv.pdf" target="_blank">CV</a> <!-- Update the href with the actual path to your CV -->
+</div>
 
 <div class="clearfix">
   <img class="img2" src="profile_pic.jpg" alt="photo" height="250">
@@ -54,7 +79,7 @@ In addition to my academic research, I have gained valuable industry experience 
 </p>
 <br> I care about developing efficient, interpretable models that improve how we aggregate and understand information.
 
-<h1> Education </h1>
+<h1 id="education"> Education </h1>
 <img src="https://people.cs.umass.edu/~nmonath/UMASS.jpg" style="height: 100">
 <img src="IISc_Master_Seal_Transparent.png" style="height: 130">
 <img src="ju_logo.png" style="height: 100">
@@ -74,7 +99,7 @@ In addition to my academic research, I have gained valuable industry experience 
 <br> Jadavpur University B.E. 2015.
 
 
-<h1> Experience </h1>
+<h1 id="experience"> Experience </h1>
 <img class="company-logo" src="https://mailmeteor.com/logos/assets/PNG/Microsoft_Logo_256px.png" style="height: 100">
 <img class="company-logo" src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" style="height: 130">
 <img class="company-logo" src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" style="height: 100">
@@ -129,7 +154,7 @@ In addition to my academic research, I have gained valuable industry experience 
 </ol>
 
 
-<h1> Publications </h1>
+<h1 id="publications"> Publications </h1>
 Please visit my <a href="https://scholar.google.com/citations?user=0KpQR94AAAAJ&hl=en"> Google Scholar </a> page for updated list of publications.
 <ol> 
 <li> <b>SHIB SANKAR DASGUPTA</b>, MICHAEL BORATKO, S. ATMAKURI, XIANG LORRAINE LI, D. PATEL, ANDREW MCCALLUM <i> Word2Box: Learning Word Representation Using Box Embeddings. </i> arXiv <br></li>
@@ -141,6 +166,12 @@ Please visit my <a href="https://scholar.google.com/citations?user=0KpQR94AAAAJ&
 <li> Swayambhu Nath Ray, <b>Shib Sankar Dasgupta</b> and Partha Talukdar. <i> AD3: Attentive Deep Document Dater. </i> EMNLP. 2018 <a href=https://www.aclweb.org/anthology/D18-1213/> [pdf] <a href="https://github.com/ssdasgupta/AD3-EMNLP2018">[code]</a></a><br> <br></li>
 <li> Shikhar Vashishth, <b>Shib Sankar Dasgupta</b>, Swayambhu Nath Ray and Partha Talukdar. <i> Dating Documents using Graph Convolution Networks. </i> EMNLP. 2018 <a href=https://www.aclweb.org/anthology/P18-1149/> [pdf] <a href="https://github.com/malllabiisc/NeuralDater">[code]</a></a><br> <br></li>
 </ol>
+
+<h1 id="skills">Skills</h1>
+<p>
+  Coding: Python, C++, Matlab. library: PyTorch, TensorFlow, Transformers.
+  Course: Machine Learning, Deep Learning, Natural Language Processing, Information Retrieval.
+</p>
 
 
 <h1> Awards </h1>
