@@ -1,0 +1,9 @@
+[submodule "my-portfolio/themes/PaperMod"]
+	path = my-portfolio/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "my-portfolio/themes/academic-theme"]
+	path = my-portfolio/themes/academic-theme
+	url = https://github.com/pratulsrinivasan/hugo-academic.git
+[submodule "my-portfolio/themes/academic-theme-my"]
+	path = my-portfolio/themes/academic-theme-my
+	url = git@github.com:ssdasgupta/academic-theme.git
