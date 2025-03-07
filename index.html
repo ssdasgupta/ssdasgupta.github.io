@@ -86,31 +86,27 @@ In addition to my academic research, I have gained valuable industry experience 
   • Representation Learning • Information Retrieval • Recommendation Systems • Natural Language Processing
 </p>
 <br> I care about developing efficient, interpretable models that improve how we aggregate and understand information. -->
-<h1 id="research">Research Interests</h1>
-<ul>
-  <li>
-    <b>Set-Theoretic Tasks:</b> My research focuses on improving the ability of models to handle compositional queries involving set operations like intersection, union, and negation. 
-    In my work <a href="https://arxiv.org/abs/2303.XXXX" target="_blank">Answering Compositional Queries with Set-Theoretic Embeddings</a>, I introduced a benchmark to evaluate the performance of models on complex set-theoretic tasks, showing significant improvements over existing methods.
-  </li>
-  
-  <li>
-    <b>Set-Theoretic Embeddings:</b> I have developed geometric embeddings that capture the semantics of sets using box-based representations. 
-    My work on <a href="https://aclanthology.org/2022.acl-long.123" target="_blank">Word2Box</a> demonstrates how box embeddings can model set-theoretic properties like hierarchy and inclusion. 
-    Additionally, in <a href="https://aclanthology.org/2021.repl4nlp-1.6/" target="_blank">Box-To-Box Transformations for Modeling Joint Hierarchies</a>, I proposed techniques to enhance the expressiveness of box embeddings for hierarchical structures.
-  </li>
-  
-  <li>
-    <b>Graph Representation Learning:</b> I have explored various approaches to improving graph-based models. 
-    In <a href="https://aclanthology.org/D18-1225/" target="_blank">HyTE: Hyperplane-based Temporally aware Knowledge Graph Embedding</a>, I introduced a temporal extension to knowledge graph embeddings, enhancing their ability to handle time-sensitive data.
-    My work on <a href="https://aclanthology.org/P18-1149/" target="_blank">Graph Convolution Networks for Document Dating</a> applies graph-based models to real-world NLP tasks, showing improvements in document temporal ordering.
-  </li>
-  
-  <li>
-    <b>Temporal Learning:</b> I have worked on integrating temporal reasoning into machine learning models. 
-    In <a href="https://aclanthology.org/D18-1225/" target="_blank">HyTE</a>, I proposed a hyperplane-based approach to model the temporal evolution of knowledge graphs. 
-    Additionally, in <a href="https://aclanthology.org/D18-1213/" target="_blank">AD3: Attentive Deep Document Dater</a>, I developed methods to predict document dates by combining graph-based and attention-based models.
-  </li>
-</ul>
+<h1 id="research">Research Areas</h1>
+
+<h2>Representation Learning</h2>
+<p>
+My PhD thesis focuses on <b>set-based representation learning</b> using <b>Box Embeddings</b> – trainable Venn diagrams that model logical reasoning and set-based similarity. Box embeddings provide a structured alternative to vector-based similarity measures like dot product by encoding inclusion, intersection, and exclusion relationships. I improved the training stability and local identifiability of box embeddings (<a href="https://neurips.cc/virtual/2020/protected/poster_01c9d2c5b3ff5cbba349ec39a570b5e3.html" target="_blank">Improving Local Identifiability</a>), enabling more accurate modeling of complex set-theoretic relationships. In <a href="https://underline.io/lecture/49884-word2box-capturing-set-theoretic-semantics-of-words-using-box-embeddings" target="_blank">Word2Box</a>, I showed that box embeddings outperform traditional word embeddings in representing hierarchical and compositional semantics. My work on Box-to-Box Transformations demonstrated their effectiveness for joint hierarchical modeling in knowledge graph completion and reasoning.
+</p>
+
+<h2>Information Retrieval</h2>
+<p>
+Box embeddings improve real-world IR tasks like faceted search, recommendation systems, and web browsing by better handling compositional queries. In <a href="#" target="_blank">Answering Compositional Queries with Set-Theoretic Embeddings</a>, I proposed a framework for handling queries like "Jazz but not Smooth Jazz" or "Animation ∩ Monsters," where traditional vector models often fail. My work on <a href="#" target="_blank">Personalized Recommendation with Set-Theoretic Constraints</a> explored attribute-aware recommendations, enhancing performance when user preferences follow set-based patterns. I also integrated box embeddings with transformer-based dual encoders, improving search and personalized recommendation performance(Results coming soon). 
+At <b>Microsoft</b>, I developed a hybrid approach combining traditional collaborative filtering with LLM-based similarity estimation to enhance recommendation accuracy.
+</p>
+
+<h2>Knowledge Base Representation</h2>
+<p>
+My research explores improving knowledge base representation by developing methods that capture both structural and temporal dependencies in large-scale knowledge graphs. In <a href="https://aclanthology.org/D18-1225/" target="_blank">HyTE</a>, I proposed a hyperplane-based embedding method to model the temporal evolution of facts in knowledge graphs. HyTE introduced a novel temporal axis in embedding space, allowing for more accurate reasoning over time-dependent relationships. My work on <a href="https://aclanthology.org/P18-1149/" target="_blank">Neural Dater</a> applied graph convolutional networks (GCNs) to predict the dates of historical documents, showing that structured representations improve temporal inference.  
+
+Building on my Ph.D. research topic, I have extended box embeddings to probabilistic knowledge bases, where uncertainty and hierarchical relationships are key challenges. Box embeddings provide a natural geometric representation for encoding uncertainty and capturing the complex structure of multi-relational data. In <a href="#" target="_blank">Probabilistic Box Embeddings for Knowledge Graph Reasoning</a>, I showed that box-based models outperform traditional embeddings in capturing hierarchical and compositional properties of knowledge bases, improving both link prediction and query answering performance. My work demonstrates that box embeddings can effectively handle partial and uncertain information, making them suitable for real-world knowledge graphs.
+</p>
+
+
 
 <h1 id="education">Education</h1>
 <div class="education-container">
